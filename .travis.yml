@@ -25,4 +25,4 @@ before_install:
   - chmod 755 ./travis-tool.sh
 
 install:
-  - ./travis-tool.sh install_deps gsl-devel libgsl0-dev libgsl-dev
+  - ./travis-tool.sh install_deps install_aptget gsl-devel libgsl0-dev libgsl-dev
