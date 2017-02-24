@@ -16,6 +16,8 @@ r_packages:
 r_github_packages: thibautjombart/apex
 
 apt_packages:
+  - gsl
+  - gsl-devel
   - libgsl0-dev
   - libgsl-dev
 
